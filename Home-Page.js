@@ -56,7 +56,7 @@ const HomePage = () => {
           posters={recommendedMovies}
           isDark={false}
         />
-      </div>
+      </div> 
 
       <div className="bg-premier-800 py-12">
         <div className="container mx-auto px-4 md:px-12 my-8 flex flex-col gap-3">
