@@ -27,7 +27,7 @@ const HomePage = () => {
       const getTopRatedMovies = await axios.get("/movie/top_rated");
       setPremierMovies(getTopRatedMovies.data.results);
     };
-
+  
     requestTopRatedMovies();
   }, []);
   useEffect(() => {
